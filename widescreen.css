@@ -10,7 +10,7 @@
  
  .info {
      display: grid;
-     grid-template-columns: 60% 40%;
+     grid-template-columns: 1fr 1fr;
      grid-gap: 0.9375rem;
  }
 
