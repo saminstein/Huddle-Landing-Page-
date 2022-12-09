@@ -1,0 +1,59 @@
+@media screen and (min-width: 800px) {
+ body {
+     background-image: url(bg-desktop.svg);
+     background-color: var(--Violet);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: var(--White);
+ }
+ 
+ 
+ .info {
+     display: grid;
+     grid-template-columns: 60% 40%;
+     grid-gap: 0.9375rem;
+ }
+
+ 
+ .info h1 {
+     margin: 0 0.625rem;
+     text-align: left;
+     font-size: 1.8125rem;
+ }
+ 
+ 
+ p {
+     font-size: 0.9375rem;
+     text-align: left;
+     margin: 0 0.625rem;
+ }
+ 
+ 
+ .btn {
+     margin-left: 0.625rem;
+     padding: 0.75rem 3.625rem;
+     font-size: 0.875rem;
+     cursor: pointer;
+ }
+ 
+ 
+ btn:hover {
+     background: var(--Magenta);
+     color: var(--White);
+}
+ 
+ 
+.icons {
+     justify-content: flex-end;
+     margin: 1.5625rem;
+ }
+
+
+.fa:hover {
+     border: 1px solid var(--Magenta);
+     color: var(--Magenta);
+     cursor: pointer;
+}
+
+
+}
